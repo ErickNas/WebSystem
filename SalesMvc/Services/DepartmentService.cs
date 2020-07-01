@@ -1,4 +1,5 @@
-﻿using SalesMvc.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SalesMvc.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,9 @@ namespace SalesMvc.Services
             _context = context;
         }
 
-        public List<Department> FindeAll()
+        public async Task<List<Department>> FindeAllAsync()
         {
-            return _context.Department.OrderBy(x => x.Name).ToList();
+            return await _context.Department.OrderBy(x => x.Name).ToListAsync();
         }
     }
 }
