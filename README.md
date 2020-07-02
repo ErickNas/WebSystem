@@ -5,7 +5,7 @@
 This is a simple web application that controls the sales of a store.
 Was done using basically C # and a MySql Database(To store information about sales and salespeople).
 
-# Interfaces.
+## Interfaces.
 
 basically there are 6 interfaces.
 
