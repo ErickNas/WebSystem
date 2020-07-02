@@ -9,26 +9,26 @@ Was done using basically C # and a MySql Database(To store information about sal
 
 basically there are 6 interfaces.
 
-## Home(not configured yet!).
+### Home(not configured yet!).
 
 This is the main page of the application.
 
-## Departments.
+### Departments.
 
 Shows all departments in your company, and allows you to add new ones, delete existing ones, edit and view information about.
 
-## Sellers.
+### Sellers.
 
 Shows information about sellers, allowing changes, adding new sellers or deleting existing ones.
 
-## Sales.
+### Sales.
 
 Allows you to filter a given sales period by ordering the simple way or by department grouping.
 
-## About(not configured yet!).
+### About(not configured yet!).
 
 Will show application information.
 
-## Contact.
+### Contact.
 
 Basic developer contact information for contact or troubleshooting.
